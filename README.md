@@ -1,9 +1,6 @@
-# portfolio
-Microverse Portfolio Project 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Hello Microverse
-
+# Portfolio
+Microverse Portfolio Project 
 > Portfolio Web site.
 ## Portfolio Web site Project initialization
 ### In this project we :
@@ -14,8 +11,6 @@ Microverse Portfolio Project
 - Add Mark up to the .html file.
 - Add style to the main header.
 - Use images and backgrounds to enhance the look of the website.
-
-
 
 ## Built With
 

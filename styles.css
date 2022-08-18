@@ -93,7 +93,7 @@ main p {
   gap: 24px;
 }
 
-.skils-container ul {
+.skils-container .cont {
   color: #6662c6;
   width: 45%;
 }
