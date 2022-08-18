@@ -20,6 +20,7 @@ ul {
   line-height: 24px;
   letter-spacing: 3%;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -83,13 +84,13 @@ main p {
   margin: 2rem auto;
   border-radius: 50%;
 }
+
 .skils-container {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   padding: 10px;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 .skils-container ul {
@@ -118,6 +119,7 @@ a:hover {
   background-color: lightskyblue;
   border-radius: 5px;
 }
+
 .work {
   display: block;
   margin: 0 auto;
