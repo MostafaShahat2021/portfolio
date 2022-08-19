@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("img/top-circles.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #191765;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  margin: 1rem 0;
+  padding: 0 16px;
+  color: #f1f0f5;
+}
+
+.navbar .logo {
+  width: 46%;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.material-symbols-outlined {
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  min-height: 8rem;
+}
+
+main h1 {
+  text-align: center;
+  color: #7d73fc;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 72px;
+}
+
+main h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  color: #edecff;
+  margin-bottom: 3rem;
+}
+
+main p {
+  color: #c8c8d4;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.hr {
+  display: block;
+  color: #515068;
+  width: 327px;
+  height: 3px;
+  margin: 2rem auto;
+  border-radius: 50%;
+}
+
+.skils-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 24px;
+}
+
+.skils-container .cont {
+  color: #6662c6;
+  width: 45%;
+}
+
+.cont span {
+  display: block;
+  margin-bottom: 1rem;
+  padding-left: 0.8rem;
+}
+
+.skils-container li {
+  color: #d9d9ec;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.social a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social a {
+  display: block;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+
+.work {
+  display: block;
+  margin: 0 auto;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:link h3 {
+  display: block;
+  color: #c8c8d4;
+  width: 7rem;
+  font-size: larger;
+}
+
+.navbar a:visited h3 {
+  display: block;
+  border: 2px solid;
+  color: #c8c8d4;
+}
