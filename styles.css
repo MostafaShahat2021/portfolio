@@ -139,6 +139,10 @@ main p {
   margin: 0 auto;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar a:link h3 {
   display: block;
   color: #c8c8d4;
