@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)\r # Portfolio\r Microverse Portfolio Project \r > Portfolio Web site.\r ## Portfolio Web site Project initialization\r ### In this project we :\r - Add Linters for HTML/CSS.\r - Use Mobile-first approach.\r - Use best practices for HTML & CSS.\r - Update README file.\r - Add Mark up to the .html file.\r - Add style to the main header.\r - Use images and backgrounds to enhance the look of the website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostafaShahat2021/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MostafaShahat2021/portfolio/issues"
+  },
+  "homepage": "https://github.com/MostafaShahat2021/portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.1.1"
+  }
+}
