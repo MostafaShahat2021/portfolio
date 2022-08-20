@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Microverse Portfolio Project",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "hint": "^7.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostafaShahat2021/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MostafaShahat2021/portfolio/issues"
+  },
+  "homepage": "https://github.com/MostafaShahat2021/portfolio#readme"
+}
