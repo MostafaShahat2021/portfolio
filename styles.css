@@ -212,7 +212,7 @@ main p {
 .list-container ul {
   width: 100%;
   display: flex;
-  justify-content :space-between;
+  justify-content: space-between;
   align-content: center;
   font-size: 1.5rem;
   margin-top: 1rem;
@@ -220,18 +220,17 @@ main p {
 
 .list-container ul li {
   border-right: 1px solid rgb(51, 49, 49);
-  padding-right: 1rem;
   display: block;
   width: fit-content;
-  height: 2rem; 
+  height: 2rem;
   color: #dcdce8;
   margin-top: 1.5rem;
   margin-left: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 20px;
   font-weight: 500;
   text-align: center;
-  padding: 0;
+  padding: 0 1rem 0 0;
 }
 
 .btn {
