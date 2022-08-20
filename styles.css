@@ -120,6 +120,13 @@ main p {
   width: 100%;
   margin: 2rem auto;
 }
+/* second section */
+.card-container img {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
 
 .social a img {
   display: block;
@@ -157,22 +164,21 @@ main p {
 
 /* sECOND SECTION */
 
-.second-container{
+.second-container {
   display: grid;
-  grid-template-rows:repeat(5,100%) ;
+  grid-template-rows: repeat(5, 100%);
   background: url("/img/portfolio.png");
   background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #191765;
   font-family: "Roboto", sans-serif;
-  
 }
 
 .work-titl {
   font-size: 40px;
   font-weight: 500;
-  color: #9490FF;
+  color: #9490ff;
   width: 75%;
   padding: 1rem;
 }
@@ -185,15 +191,8 @@ main p {
   padding: 1rem;
 }
 
-.card-container img {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1.5rem;
-}
-
 .work-titl-2 {
-  color: #FFFFFF;
+  color: #fff;
   padding: 2rem 1rem;
   font-weight: 500;
   width: 100%;
@@ -201,9 +200,8 @@ main p {
   margin-bottom: 1rem;
 }
 
-
 .card-container p {
-  color: #DCDCE8;
+  color: #dcdcdce8;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
@@ -220,19 +218,18 @@ main p {
 }
 
 .list-container ul li {
-  display:block;
+  display: block;
   width: 50%;
   height: 2rem; 
-  color: #DCDCE8;
+  color: #dcdce8;
   margin-top: 1.5rem;
   margin-left: 1.5rem;
   font-family: 'Inter', sans-serif;
   line-height: 20px;
   font-weight: 500;
-  
 }
 
-.btn{
+.btn {
   background-color: #7D73FC;
   color: #EDECFF;
   border: none;
