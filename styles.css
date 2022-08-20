@@ -6,18 +6,9 @@
 
 body {
   background: url("img/top-circles.png");
-  background-position: center;
+  background-position: cover;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #191765;
-  font-family: "Roboto", sans-serif;
-}
-
-.first-container {
-  background: url("img/top-circles.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-color: #191765;
   font-family: "Roboto", sans-serif;
 }
@@ -234,6 +225,7 @@ main p {
   height: 2rem; 
   color: #DCDCE8;
   margin-top: 1.5rem;
+  margin-left: 1.5rem;
   font-family: 'Inter', sans-serif;
   line-height: 20px;
   font-weight: 500;
