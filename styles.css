@@ -219,6 +219,8 @@ main p {
 }
 
 .list-container ul li {
+  border-right: 1px solid rgb(51, 49, 49);
+  padding-right: 1rem;
   display: block;
   width: 50%;
   height: 2rem; 
@@ -231,8 +233,8 @@ main p {
 }
 
 .btn {
-  background-color: #edecff;
-  color: #EDECFF;
+  background-color: #9490ff;
+  color: #edecff;
   border: none;
   width: 89px;
   height: 48px;
