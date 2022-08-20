@@ -120,6 +120,7 @@ main p {
   width: 100%;
   margin: 2rem auto;
 }
+
 /* second section */
 .card-container img {
   margin-top: 1rem;
@@ -230,7 +231,7 @@ main p {
 }
 
 .btn {
-  background-color: #7D73FC;
+  background-color: #edecff;
   color: #EDECFF;
   border: none;
   width: 89px;
