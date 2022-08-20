@@ -154,3 +154,99 @@ main p {
   border: 2px solid;
   color: #c8c8d4;
 }
+
+/* sECOND SECTION */
+
+.second-container{
+  display: grid;
+  grid-template-rows:repeat(5,100%) ;
+  background: url("/img/portfolio.png");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #191765;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.work-titl {
+  font-size: 40px;
+  font-weight: 500;
+  color: #9490FF;
+  width: 75%;
+  padding: 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1rem;
+}
+
+.card-container img {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.work-titl-2 {
+  color: #FFFFFF;
+  padding: 2rem 1rem;
+  font-weight: 500;
+  width: 100%;
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+
+.card-container p {
+  color: #DCDCE8;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 1.5rem;
+}
+
+.list-container ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.list-container ul li {
+  display:block;
+  width: 50%;
+  height: 2rem; 
+  color: #DCDCE8;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  line-height: 20px;
+  font-weight: 500;
+  
+}
+
+.btn{
+  background-color: #7D73FC;
+  color: #EDECFF;
+  border: none;
+  width: 89px;
+  height: 48px;
+  padding: 12px;
+  margin: 1rem;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.cv-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
