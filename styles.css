@@ -163,7 +163,7 @@ main p {
   color: #c8c8d4;
 }
 
-/* sECOND SECTION */
+/* SECOND SECTION */
 
 .second-container {
   display: grid;
@@ -202,41 +202,12 @@ main p {
 }
 
 .card-container p {
-  /* border: 1px solid green; */
   color: #dcdce8;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
   padding: 1.5rem;
 }
-
-/* .list-container ul {
-  border: 1px solid greenyellow;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items:center;
-  align-content: center;
-  text-align: center;
-  font-size: 1.5rem;
-  margin-top: 1rem;
-}
-
-.list-container ul li {
-  border: 1px solid red;
-  display:block;
-  width: 50%;
-  height: 2rem;
-  color: #DCDCE8;
-  margin-top: 1.5rem;
-  margin-left: 1.5rem;
-  font-family: 'Inter', sans-serif;
-  line-height: 20px;
-  font-weight: 500;
-  padding: 0;
-  text-align: center;
-} */
 
 .list-container ul {
   display: flex;
