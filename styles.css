@@ -5,12 +5,15 @@
 }
 
 body {
+  background-color: #191765;
+  font-family: "Roboto", sans-serif;
+}
+
+.first-section {
   background: url("img/top-circles.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #191765;
-  font-family: "Roboto", sans-serif;
+  background-size: 100%;
 }
 
 ul {
@@ -166,14 +169,16 @@ main p {
 /* SECOND SECTION */
 
 .second-container {
-  display: grid;
-  grid-template-rows: repeat(5, 50%);
+  /* display: grid;
+  grid-template-rows: repeat(5, 50%); */
   background: url("/img/portfolio.png");
-  background-position: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #191765;
-  font-family: "Roboto", sans-serif;
+  background-size: 100%;
+
+  /* background-color: #191765; */
+
+  /* font-family: "Roboto", sans-serif; */
 }
 
 .work-titl {
@@ -187,9 +192,8 @@ main p {
 .card-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
-  padding: 1rem;
 }
 
 .work-titl-2 {
@@ -203,10 +207,10 @@ main p {
 
 .card-container p {
   color: #dcdce8;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .list-container ul {
@@ -220,6 +224,8 @@ main p {
   border-right: 2px solid #555;
   width: auto;
   padding-right: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .list-container .ruby {
@@ -232,7 +238,6 @@ main p {
   border: none;
   width: 89px;
   height: 48px;
-  padding: 12px;
   margin: 1rem;
   font-weight: 500;
   font-size: 12px;
