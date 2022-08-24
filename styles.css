@@ -170,12 +170,15 @@ main p {
 /* SECOND SECTION */
 
 .second-container {
-  /* display: grid;
-  grid-template-rows: repeat(5, 50%); */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  align-content: center;
   background: url("/img/portfolio.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+  height: fit-content;
 }
 
 .work-titl {
@@ -191,6 +194,7 @@ main p {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  height: fit-content;
 }
 
 .work-titl-2 {
@@ -256,6 +260,12 @@ main p {
   flex-direction: column;
   padding: 10px;
   gap: 24px;
+}
+
+.skils-container2 .skill-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .skils-container2 .cont ul {
