@@ -253,27 +253,3 @@ main p {
   align-content: center;
 }
 
-.skils-container2 {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-direction: column;
-  padding: 10px;
-  gap: 24px;
-}
-
-.skils-container2 .skill-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.skils-container2 .cont ul {
-  color: #9b96f5;
-  width: 45%;
-  padding-left: 2.5rem;
-}
-
-.skils-container2 .cont span {
-  color: #6865ac;
-}
