@@ -174,7 +174,7 @@ main p {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   align-content: center;
-  background: url("/img/portfolio.png");
+  background: url("img/portfolio.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
