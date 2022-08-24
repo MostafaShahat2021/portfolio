@@ -9,6 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* First Section */
 .first-section {
   background: url("img/top-circles.png");
   background-position: center;
@@ -146,7 +147,7 @@ main p {
 
 .work {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 4rem auto;
 }
 
 .navbar a {
@@ -175,10 +176,6 @@ main p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-
-  /* background-color: #191765; */
-
-  /* font-family: "Roboto", sans-serif; */
 }
 
 .work-titl {
@@ -211,6 +208,7 @@ main p {
   font-size: 20px;
   line-height: 28px;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .list-container ul {
@@ -218,6 +216,7 @@ main p {
   justify-content: space-around;
   color: #d9d9ec;
   padding-left: 0;
+  margin-bottom: 1rem;
 }
 
 .list-container li {
@@ -248,4 +247,23 @@ main p {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+.skils-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  padding: 10px;
+  gap: 24px;
+}
+
+.skils-container2 .cont ul {
+  color: #9b96f5;
+  width: 45%;
+  padding-left: 2.5rem;
+}
+
+.skils-container2 .cont span {
+  color: #6865ac;
 }
