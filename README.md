@@ -11,6 +11,7 @@ Microverse Portfolio Project
 - Add Mark up to the .html file.
 - Add style to the main header.
 - Use images and backgrounds to enhance the look of the website.
+- Add second section (Work-About).
 
 ## Built With
 
