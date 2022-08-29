@@ -216,14 +216,18 @@ main p {
 }
 
 .list-container ul {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
+  position: relative;
+  width: 100%;
+  height: 100px;
   color: #d9d9ec;
   padding-left: 0;
   margin-bottom: 1rem;
 }
 
 .list-container li {
+  float: left;
   border-right: 2px solid #555;
   width: auto;
   padding-right: 1.5rem;
