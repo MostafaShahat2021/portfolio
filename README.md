@@ -12,6 +12,7 @@ Microverse Portfolio Project
 - Add style to the main header.
 - Use images and backgrounds to enhance the look of the website.
 - Add second section (Work-About).
+- Add contact Form.
 
 ## Built With
 
