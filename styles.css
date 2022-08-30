@@ -72,7 +72,8 @@ main h2 {
   margin-bottom: 3rem;
 }
 
-main p {
+main p,
+.contact-p {
   color: #c8c8d4;
   text-align: center;
   font-weight: 400;
@@ -83,11 +84,11 @@ main p {
   margin: 1rem;
 }
 
-.hr {
+.line {
   display: block;
   color: #515068;
   width: 327px;
-  height: 3px;
+  height: 1px;
   margin: 2rem auto;
   border-radius: 50%;
 }
@@ -122,7 +123,9 @@ main p {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  margin: 2rem auto;
+  margin: 1rem auto;
+  gap: 1rem;
+  margin-bottom: 3rem;
 }
 
 /* second section */
@@ -187,6 +190,7 @@ main p {
   color: #9490ff;
   width: 75%;
   padding: 1rem;
+  margin-top: 5rem;
 }
 
 .card-container {
@@ -251,4 +255,82 @@ main p {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+/**** Contact us ****/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .contact-p {
+  color: #fff;
+  text-align: center;
+  width: fit-content;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#user_name,
+#user_mail {
+  background-color: #fff;
+  width: 327px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+#user_mail:focus {
+  border: 1px solid #9490ff;
+}
+
+#user_text {
+  width: 327px;
+  height: 148px;
+  background-color: #fff;
+}
+
+.form-btn {
+  display: block;
+  width: 89px;
+  height: 40;
+  color: #edecff;
+  background-color: #7d73fc;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 3rem auto;
+}
+
+.form-btn:hover {
+  box-shadow: rgb(168, 168, 168) 3px 3px 5px;
+  transition: all ease 0.5s;
+}
+
+.form-btn:focus {
+  background-color: #3b36c4;
+}
+
+.form-btn:visited {
+  background-color: #3b36c4;
+}
+
+.form-btn:disabled {
+  background-color: gray;
+}
+
+footer h6 {
+  color: #ebebff;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hr {
+  background-color: black;
+  width: 100%;
+  height: 1px;
 }
