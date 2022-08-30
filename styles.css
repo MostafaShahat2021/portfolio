@@ -252,3 +252,74 @@ main p {
   justify-content: center;
   align-content: center;
 }
+
+/**** Contact us ****/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .contact-p{
+  color: #fff;
+  text-align: center;
+  width: fit-content;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#user_name,
+#user_mail {
+  background-color: #fff;
+  width: 327px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+#user_mail:focus {
+  border: 1px solid #9490ff;
+}
+
+#user_text {
+  width: 327px;
+  height: 148px;
+  background-color: #fff;
+}
+
+.form-btn {
+  display: block;
+  width: 89px;
+  height: 40;
+  color: #edecff;
+  background-color: #7d73fc;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0.5rem auto;
+}
+
+.form-btn:hover {
+  box-shadow: rgb(168, 168, 168) 3px 3px 5px;
+  transition: all ease 0.5s;
+}
+
+.form-btn:focus {
+  background-color: #3b36c4;
+}
+
+.form-btn:visited {
+  background-color: #3b36c4;
+}
+
+.form-btn:disabled {
+  background-color: gray;
+}
+
+footer h6 {
+  color: #ebebff;
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 0.5rem;
+}
