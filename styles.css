@@ -84,11 +84,11 @@ main p,
   margin: 1rem;
 }
 
-.hr {
+.line {
   display: block;
   color: #515068;
   width: 327px;
-  height: 3px;
+  height: 1px;
   margin: 2rem auto;
   border-radius: 50%;
 }
@@ -123,7 +123,9 @@ main p,
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  margin: 2rem auto;
+  margin: 1rem auto;
+  gap: 1rem;
+  margin-bottom: 3rem;
 }
 
 /* second section */
@@ -188,6 +190,7 @@ main p,
   color: #9490ff;
   width: 75%;
   padding: 1rem;
+  margin-top: 5rem;
 }
 
 .card-container {
@@ -324,4 +327,10 @@ footer h6 {
   text-align: center;
   margin-top: -1rem;
   margin-bottom: 0.5rem;
+}
+
+.hr {
+  background-color: black;
+  width: 100%;
+  height: 1px;
 }
