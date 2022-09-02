@@ -44,7 +44,8 @@ ul {
   width: 46%;
   padding-left: 1rem;
   font-size: 1rem;
-  /* == .NAVBAR .LOGO logo rotate animation ==ON THE PARENT===*/
+
+  /* == .NAVBAR .LOGO logo rotate animation ==ON THE PARENT=== */
   animation: move 3s ease-in-out 1s;
 }
 
@@ -52,9 +53,11 @@ ul {
   0% {
     transform: rotate(90deg);
   }
+
   50% {
     transform: rotate(360deg);
   }
+
   100% {
     transform: rotate(-360deg);
   }
@@ -441,12 +444,17 @@ footer h6 {
     margin: 1rem;
   }
 
+  .social-big li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .menu li:hover {
     /* hover on navigation items */
     color: #7d73fc;
     font-size: 2rem;
     cursor: pointer;
-    padding: .5rem;
+    padding: 0.5rem;
     transform: scale(1);
     transition: all ease-in-out 0.5s;
   }
@@ -534,11 +542,6 @@ footer h6 {
     padding: 1rem;
   }
 
-  .social-big li {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .work-titl {
     font-size: 64px;
     font-weight: 700;
@@ -581,6 +584,18 @@ footer h6 {
     margin-bottom: 2rem;
   }
 
+  .con-1 img,
+  .con img {
+    width: 60%;
+    margin-left: 8rem;
+  }
+
+  .social-last a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   .card-container img:hover {
     transform: scale(110%);
     transition: all ease-in-out 0.5s;
@@ -618,12 +633,6 @@ footer h6 {
   .con {
     display: flex;
     flex-direction: row-reverse;
-  }
-
-  .con-1 img,
-  .con img {
-    width: 60%;
-    margin-left: 8rem;
   }
 
   .list-container ul {
@@ -688,13 +697,12 @@ footer h6 {
     }
   }
   
+  form .btn { width: 20%; }
+
   form .btn:hover {
     animation: bounce 1s;
     cursor: pointer;
   }
-  
-
-  form .btn { width: 20%; }
 
   .social-last {
     display: flex;
@@ -707,12 +715,6 @@ footer h6 {
     display: block;
     text-align: center;
     margin: 0 0.5rem;
-  }
-
-  .social-last a img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .social-last span {
