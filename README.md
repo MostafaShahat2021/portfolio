@@ -13,6 +13,7 @@ Microverse Portfolio Project
 - Use images and backgrounds to enhance the look of the website.
 - Add second section (Work-About).
 - Add contact Form.
+- Add Desktop version with media queries.
 
 ## Built With
 
