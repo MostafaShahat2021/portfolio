@@ -44,6 +44,23 @@ ul {
   width: 46%;
   padding-left: 1rem;
   font-size: 1rem;
+
+  /* == .NAVBAR .LOGO logo rotate animation ==ON THE PARENT=== */
+  animation: move 3s ease-in-out 1s;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
 .material-symbols-outlined {
@@ -300,6 +317,31 @@ footer .contact-p {
   background-color: #fff;
 }
 
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+form .btn:hover {
+  animation: bounce 1s;
+  cursor: pointer;
+}
+
 .form-btn {
   display: block;
   width: 89px;
@@ -402,6 +444,21 @@ footer h6 {
     margin: 1rem;
   }
 
+  .social-big li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .menu li:hover {
+    /* hover on navigation items */
+    color: #7d73fc;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    transform: scale(1);
+    transition: all ease-in-out 0.5s;
+  }
+
   main {
     width: 50%;
     margin: 0 auto;
@@ -420,6 +477,13 @@ footer h6 {
   }
 
   .soft { width: 100%; }
+
+  .soft:hover {
+    /* hover on main h2 element "Software Developer" */
+    transform: scale(1.25);
+    transition: all ease-in-out 0.5s;
+    color: #7d73fc;
+  }
 
   .hr {
     display: block;
@@ -478,11 +542,6 @@ footer h6 {
     padding: 1rem;
   }
 
-  .social-big li {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .work-titl {
     font-size: 64px;
     font-weight: 700;
@@ -525,6 +584,23 @@ footer h6 {
     margin-bottom: 2rem;
   }
 
+  .con-1 img,
+  .con img {
+    width: 60%;
+    margin-left: 8rem;
+  }
+
+  .social-last a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-container img:hover {
+    transform: scale(110%);
+    transition: all ease-in-out 0.5s;
+  }
+
   .card-1,
   .card-3 {
     width: 40%;
@@ -557,12 +633,6 @@ footer h6 {
   .con {
     display: flex;
     flex-direction: row-reverse;
-  }
-
-  .con-1 img,
-  .con img {
-    width: 60%;
-    margin-left: 8rem;
   }
 
   .list-container ul {
@@ -607,7 +677,32 @@ footer h6 {
     margin-bottom: 4rem;
   }
 
+  @keyframes bounce {
+    0%,
+    20%,
+    60%,
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+
   form .btn { width: 20%; }
+
+  form .btn:hover {
+    animation: bounce 1s;
+    cursor: pointer;
+  }
 
   .social-last {
     display: flex;
@@ -620,12 +715,6 @@ footer h6 {
     display: block;
     text-align: center;
     margin: 0 0.5rem;
-  }
-
-  .social-last a img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .social-last span {
