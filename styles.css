@@ -595,7 +595,7 @@ footer h6 {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .card-container img:hover {
     transform: scale(110%);
     transition: all ease-in-out 0.5s;
@@ -685,18 +685,18 @@ footer h6 {
       -webkit-transform: translateY(0);
       transform: translateY(0);
     }
-  
+
     40% {
       -webkit-transform: translateY(-20px);
       transform: translateY(-20px);
     }
-  
+
     80% {
       -webkit-transform: translateY(-10px);
       transform: translateY(-10px);
     }
   }
-  
+
   form .btn { width: 20%; }
 
   form .btn:hover {
