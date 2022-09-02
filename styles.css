@@ -355,7 +355,7 @@ footer h6 {
 
 /*  media queries desktop version */
 @media only screen and (min-width: 768px) {
-  .first-section .material-symbols-outlined {display: none;}
+  .first-section .material-symbols-outlined { display: none; }
 
   .first-section {
     background: url("img/0.png");
@@ -363,7 +363,9 @@ footer h6 {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
+    margin-bottom: 14rem;
   }
+
   .first-section .navbar a .logo {
     color: #ebebff;
     font-size: 20px;
@@ -392,20 +394,12 @@ footer h6 {
     font-weight: 500;
   }
 
-  .first-section .mail {
-    display: inline-block;
-  }
+  .first-section .mail { display: inline-block; }
+
   .menu li {
     font-size: 15px;
     font-weight: 500;
     margin: 1rem;
-  }
-
-  .first-section {
-    width: 100%;
-    background-position: center;
-    background-size: 100%;
-    margin-bottom: 14rem;
   }
 
   main {
