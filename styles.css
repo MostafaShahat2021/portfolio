@@ -44,6 +44,20 @@ ul {
   width: 46%;
   padding-left: 1rem;
   font-size: 1rem;
+  /* == .NAVBAR .LOGO logo rotate animation ==ON THE PARENT===*/
+  animation: move 3s ease-in-out 1s;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
 .material-symbols-outlined {
@@ -427,6 +441,16 @@ footer h6 {
     margin: 1rem;
   }
 
+  .menu li:hover {
+    /* hover on navigation items */
+    color: #7d73fc;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: .5rem;
+    transform: scale(1);
+    transition: all ease-in-out 0.5s;
+  }
+
   main {
     width: 50%;
     margin: 0 auto;
@@ -445,6 +469,13 @@ footer h6 {
   }
 
   .soft { width: 100%; }
+
+  .soft:hover {
+    /* hover on main h2 element "Software Developer" */
+    transform: scale(1.25);
+    transition: all ease-in-out 0.5s;
+    color: #7d73fc;
+  }
 
   .hr {
     display: block;
@@ -548,6 +579,11 @@ footer h6 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+  }
+
+  .card-container img:hover {
+    transform: scale(110%);
+    transition: all ease-in-out 0.5s;
   }
 
   .card-1,
