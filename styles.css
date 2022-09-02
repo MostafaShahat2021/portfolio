@@ -406,6 +406,7 @@ footer h6 {
     width: 50%;
     margin: 0 auto;
   }
+
   main h1 {
     width: 700px;
     font-size: 70px;
@@ -418,7 +419,7 @@ footer h6 {
     font-weight: 500;
   }
 
-  .soft {width: 100%;}
+  .soft { width: 100%; }
 
   .hr {
     display: block;
@@ -431,6 +432,7 @@ footer h6 {
     font-weight: 400;
     margin-top: 6rem;
   }
+
   .skils-container {
     width: 40%;
     display: flex;
@@ -455,9 +457,9 @@ footer h6 {
     line-height: 28px;
   }
 
-  .social {display: none;}
+  .social { display: none; }
 
-  .work {display: none;}
+  .work { display: none; }
 
   .so-big {
     display: flex;
@@ -492,7 +494,7 @@ footer h6 {
     font-weight: 700;
   }
 
-  .hr-big {width: 85%;}
+  .hr-big { width: 85%; }
 
   .hr-last {
     width: 100%;
@@ -578,7 +580,7 @@ footer h6 {
     text-align: center;
   }
 
-  .hp-last p {width: 100%;}
+  .hp-last p { width: 100%; }
 
   form {
     display: block;
@@ -605,7 +607,7 @@ footer h6 {
     margin-bottom: 4rem;
   }
 
-  form .btn {width: 20%;}
+  form .btn { width: 20%; }
 
   .social-last {
     display: flex;
@@ -633,5 +635,5 @@ footer h6 {
     font-weight: 400;
   }
 
-  .h6-last {display: none;}
+  .h6-last { display: none; }
 }
