@@ -15,18 +15,36 @@ Microverse Portfolio Project
 - Add contact Form.
 - Add Desktop version with media queries.
 
+## Screenshot
+ ![](img/desk-1.png)
+ 
+ ![](img/mob-1.png)
+
 ## Built With
 
 - HTML(HTML-5)
-- CSS(Flexbox)
+- CSS(Flexbox - grid)
+
+## Getting Started
+
+1- clone Repo.
+git clone git@github.com:MostafaShahat2021/portfolio.git
+
+2- Install npm (node pakage manager)
+**you can run any one of these commands to install npm on your machine:**
+- npm i
+- npm install
+- sudo apt install npm
+
+ **to install globally, just add a -g or --global after the install or i**
+- npm i -g
+- sudo apt install -g npm
+
 
 ## Live Demo:
 
 [Live Demo Link](https://livedemo.com)
 
-## Getting Started
-
-Welcome to portfolio Home Page.
 
 ### Run tests
 
