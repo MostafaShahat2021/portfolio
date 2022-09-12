@@ -452,6 +452,10 @@ form .btn:hover {
   padding: 1.5rem;
 }
 
+#close:hover {
+  color: #9490ff;
+}
+
 .mob-list {
   height: 50%;
   display: flex;
@@ -491,6 +495,11 @@ form .btn:hover {
   justify-content: space-between;
   align-items: center;
 }
+
+.portfolio-link-a:hover {
+  color: #9490ff;
+}
+
 /* === mob-menu ======================================= */
 
 /*  media queries desktop version */
