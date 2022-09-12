@@ -14,6 +14,7 @@ Microverse Portfolio Project
 - Add second section (Work-About).
 - Add contact Form.
 - Add Desktop version with media queries.
+- Add Mobile Menu
 
 ## Screenshot
  ![](img/desk-1.png)
@@ -22,8 +23,9 @@ Microverse Portfolio Project
 
 ## Built With
 
-- HTML(HTML-5)
-- CSS(Flexbox - grid)
+- HTML(HTML-5).
+- CSS(Flexbox - grid).
+- javaScript (Vanilla JS).
 
 ## Getting Started
 
