@@ -73,11 +73,6 @@ button {
   }
 }
 
-.material-symbols-outlined {
-  font-size: 2rem;
-  text-align: center;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -170,11 +165,6 @@ main p,
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1.5rem;
-}
-
-.card-container img:hover {
-  transform: scale(110%);
-  transition: all ease-in-out 0.5s;
 }
 
 .social a img {
@@ -289,13 +279,6 @@ main p,
   margin: 1rem;
   font-weight: 500;
   font-size: 12px;
-}
-
-.btn:hover {
-  animation: bounce 1s;
-  box-shadow: rgb(168, 168, 168) 3px 3px 5px;
-  transition: all ease 0.5s;
-  cursor: pointer;
 }
 
 .cv-container {
@@ -498,13 +481,15 @@ form .btn:hover {
 
 .portfolio-link {
   cursor: pointer;
-  display: flex;
-  justify-content:flex-start;
 }
 
 .portfolio-link-a {
   width: 100%;
+  height: 3rem;
   padding-right: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /* === mob-menu ======================================= */
 
@@ -567,7 +552,6 @@ form .btn:hover {
   }
 
   .menu li:hover {
-    /* hover on navigation items */
     color: #7d73fc;
     font-size: 2rem;
     cursor: pointer;
