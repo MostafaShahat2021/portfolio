@@ -25,6 +25,16 @@ ul {
   letter-spacing: 3%;
 }
 
+a {
+  text-decoration: none;
+  color: #ebebff;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -61,10 +71,6 @@ ul {
   100% {
     transform: rotate(-360deg);
   }
-}
-
-.material-symbols-outlined {
-  font-size: 2rem;
 }
 
 main {
@@ -284,19 +290,24 @@ main p,
 
 /**** Contact us ****/
 
-footer {
+.consec {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-footer .contact-p {
+.consec .contact-p {
   color: #fff;
   text-align: center;
   width: fit-content;
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+.work-titl-form {
+  width: 100%;
+  text-align: center;
 }
 
 #user_name,
@@ -370,7 +381,7 @@ form .btn:hover {
   background-color: gray;
 }
 
-footer h6 {
+.consec h6 {
   color: #ebebff;
   font-weight: 200;
   font-size: 18px;
@@ -395,9 +406,108 @@ footer h6 {
   display: none;
 }
 
+/* === mob-menu ======================================= */
+#hum {
+  cursor: pointer;
+}
+
+.mob-menu {
+  background-image: url(img/shapes-mobile-menu.png);
+  background-color: #191765;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #ebebff;
+  width: 100%;
+  height: 100vh;
+  margin-top: -1rem;
+  display: none;
+  flex-direction: column;
+  transition: all ease-in-out 0.5s;
+}
+
+.active {
+  position: fixed;
+  background-image: url(img/shapes-mobile-menu.png);
+  background-color: #191765;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #ebebff;
+  width: 100%;
+  height: 100vh;
+  margin-top: -1rem;
+  display: flex;
+  flex-direction: column;
+  transition: all ease-in-out 0.5s;
+}
+
+#close {
+  color: #ebebff;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 1.5rem;
+}
+
+#close:hover {
+  color: #9490ff;
+}
+
+.mob-list {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.mob-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.mob-list li span {
+  color: #7d73fc;
+  text-align: center;
+}
+
+.portfolio-link {
+  cursor: pointer;
+}
+
+.portfolio-link-a {
+  width: 100%;
+  height: 3rem;
+  padding-right: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-link-a:hover {
+  color: #9490ff;
+}
+
+/* === mob-menu ======================================= */
+
 /*  media queries desktop version */
 @media only screen and (min-width: 768px) {
-  .first-section .material-symbols-outlined { display: none; }
+  .first-section .material-symbols-outlined {
+    display: none;
+  }
 
   .first-section {
     background: url("img/0.png");
@@ -436,7 +546,9 @@ footer h6 {
     font-weight: 500;
   }
 
-  .first-section .mail { display: inline-block; }
+  .first-section .mail {
+    display: inline-block;
+  }
 
   .menu li {
     font-size: 15px;
@@ -450,7 +562,6 @@ footer h6 {
   }
 
   .menu li:hover {
-    /* hover on navigation items */
     color: #7d73fc;
     font-size: 2rem;
     cursor: pointer;
@@ -476,7 +587,9 @@ footer h6 {
     font-weight: 500;
   }
 
-  .soft { width: 100%; }
+  .soft {
+    width: 100%;
+  }
 
   .soft:hover {
     /* hover on main h2 element "Software Developer" */
@@ -521,9 +634,13 @@ footer h6 {
     line-height: 28px;
   }
 
-  .social { display: none; }
+  .social {
+    display: none;
+  }
 
-  .work { display: none; }
+  .work {
+    display: none;
+  }
 
   .so-big {
     display: flex;
@@ -545,7 +662,6 @@ footer h6 {
   .work-titl {
     font-size: 64px;
     font-weight: 700;
-    margin-left: 5rem;
   }
 
   .work-titl-form {
@@ -553,7 +669,9 @@ footer h6 {
     font-weight: 700;
   }
 
-  .hr-big { width: 85%; }
+  .hr-big {
+    width: 85%;
+  }
 
   .hr-last {
     width: 100%;
@@ -650,7 +768,9 @@ footer h6 {
     text-align: center;
   }
 
-  .hp-last p { width: 100%; }
+  .hp-last p {
+    width: 100%;
+  }
 
   form {
     display: block;
@@ -697,7 +817,9 @@ footer h6 {
     }
   }
 
-  form .btn { width: 20%; }
+  form .btn {
+    width: 20%;
+  }
 
   form .btn:hover {
     animation: bounce 1s;
@@ -724,5 +846,7 @@ footer h6 {
     font-weight: 400;
   }
 
-  .h6-last { display: none; }
+  .h6-last {
+    display: none;
+  }
 }

@@ -13,6 +13,29 @@
 
 <body>
     <!-- ----FIRST SECTION START-------->
+    <!-- === mob-menu ================-->
+    <div class="mob-menu">
+        <div>
+            <button id="close">&#9747;</button>
+        </div>
+        <ul class="mob-list">
+            <li class="portfolio-link">
+                <a class="portfolio-link-a" href ="#portfolio">Portfolio
+                    <img src="img/Icon-Chevron-Right-Larger.png" alt="portfolio-Arro-icon">
+                </a>
+            </li>
+            <li class="portfolio-link">
+                <a class="portfolio-link-a" href="#about">About
+                    <img src="img/Icon-Chevron-Right-Larger.png" alt="about-Arro-icon">
+                </a>
+            </li>
+            <li class="portfolio-link">
+                <a class="portfolio-link-a" href="#contact-section">Contact
+                    <img src="img/Icon-Chevron-Right-Larger.png" alt="contact-Arro-icon">
+                </a>
+            </li>
+        </ul>
+    </div>
     <div class="first-section">
         <header class="navbar">
             <a href="#">
@@ -20,19 +43,19 @@
             </a>
             <nav>
                 <ul class="menu">
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
                     <li><span class="material-symbols-outlined mail">
                             mail
                         </span></li>
                 </ul>
-                <span class="material-symbols-outlined">
+                <span id="hum" class="material-symbols-outlined">
                     menu
                 </span>
             </nav>
         </header>
-        <main>
+        <main id="about">
             <h1>Mostafa Shahat</h1>
             <h2 class="soft">Software Developer</h2>
             <p>I can help you build a product , feature or website Look through some of my work and experience! If you
@@ -139,7 +162,7 @@
 
     <!-- ----SECOND SECTION START -------->
 
-    <h2 class="work-titl">My recent work</h2>
+    <h2 class="work-titl" id="portfolio">My recent work</h2>
     <img class="hr hr-big" src="img/Vector-4.png" alt="hrl">
 
     <section class="second-container">
@@ -236,7 +259,7 @@
 
     <!-------- Contact us --------->
 
-    <section class="consec">
+    <section class="consec" id="contact-section">
         <div class="hp-last">
             <h3 class="work-titl work-titl-form">CONTACT US</h3>
             <p class="contact-p">
@@ -295,6 +318,7 @@
         </ul>
         <h6 class="h6-last">mostafa.shahat2014@gmail.com</h6>
     </section>
+    <script src="main.js"></script>
 </body>
 
 </html>

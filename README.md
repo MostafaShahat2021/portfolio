@@ -3,6 +3,23 @@
 Microverse Portfolio Project 
 > Portfolio Web site.
 ## Portfolio Web site Project initialization
+
+## Screenshot
+ ![](img/desk-1.png)
+ 
+ ![](img/mob-1.png)
+ ![](img/mob-menu.png)
+
+## Live Demo:
+
+[Live Demo Link](https://mostafashahat2021.github.io/portfolio/)
+
+ ## Built With
+
+- HTML(HTML-5).
+- CSS(Flexbox - grid).
+- javaScript (Vanilla JS).
+
 ### In this project we :
 - Add Linters for HTML/CSS.
 - Use Mobile-first approach.
@@ -14,16 +31,7 @@ Microverse Portfolio Project
 - Add second section (Work-About).
 - Add contact Form.
 - Add Desktop version with media queries.
-
-## Screenshot
- ![](img/desk-1.png)
- 
- ![](img/mob-1.png)
-
-## Built With
-
-- HTML(HTML-5)
-- CSS(Flexbox - grid)
+- Add Mobile Menu
 
 ## Getting Started
 
@@ -39,12 +47,6 @@ git clone git@github.com:MostafaShahat2021/portfolio.git
  **to install globally, just add a -g or --global after the install or i**
 - npm i -g
 - sudo apt install -g npm
-
-
-## Live Demo:
-
-[Live Demo Link](https://mostafashahat2021.github.io/portfolio/)
-
 
 ### Run tests
 
