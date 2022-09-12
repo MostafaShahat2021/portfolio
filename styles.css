@@ -286,6 +286,13 @@ main p,
   font-size: 12px;
 }
 
+.btn:hover {
+  animation: bounce 1s;
+  box-shadow: rgb(168, 168, 168) 3px 3px 5px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+
 .cv-container {
   width: 50%;
   display: flex;
