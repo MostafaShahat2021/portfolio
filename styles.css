@@ -172,6 +172,11 @@ main p,
   margin-bottom: 1.5rem;
 }
 
+.card-container img:hover {
+  transform: scale(110%);
+  transition: all ease-in-out 0.5s;
+}
+
 .social a img {
   display: block;
   margin-left: auto;
