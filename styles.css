@@ -339,7 +339,7 @@ main p,
 }
 
 .msg {
-  visibility:hidden;
+  visibility: hidden;
   color: #7d73fc;
   font-size: 12px;
   font-weight: 400;
@@ -351,7 +351,7 @@ main p,
   margin-right: auto;
 }
 
-.error{
+.error {
   border: 2px solid red;
 }
 
@@ -838,22 +838,20 @@ form .btn:hover {
   }
 
   .msg {
-    visibility:hidden;
+    visibility: hidden;
     border: 1px solid red;
     color: #d9d9ec;
     font-size: 12px;
     font-weight: 400;
-    /* padding-top: 1rem; */
     width: 55%;
     height: 40px;
     text-align: left;
     margin-top: 0;
     margin-left: auto;
-    margin-right: auto;
     width: 55%;
   }
 
-  .error{
+  .error {
     border: 2px solid red;
   }
 
