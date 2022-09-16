@@ -338,6 +338,28 @@ main p,
   text-align: center;
 }
 
+.msg {
+  visibility: hidden;
+  color: #7d73fc;
+  font-size: 12px;
+  font-weight: 400;
+  width: 80%;
+  height: 40px;
+  text-align: left;
+  margin-top: -2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.msg.error {
+  border: none;
+  color: #7d73fc;
+}
+
 #user_name,
 #user_mail {
   background-color: #fff;
@@ -813,6 +835,30 @@ form .btn:hover {
     margin-top: 3rem;
     margin-bottom: 1rem;
   }
+
+  .msg {
+    border: 1px solid red;
+    visibility: hidden;
+    color: #7d73fc;
+    font-size: 12px;
+    font-weight: 400;
+    width: 55%;
+    height: 40px;
+    text-align: center;
+    margin-top: -2.5rem;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* .error {
+    border: 2px solid red;
+  } */
+
+  /* .msg.error {
+    border: none;
+    color: red;
+  } */
 
   #user_name,
   #user_mail {
