@@ -913,14 +913,11 @@ form .btn:hover {
 }
 
 #pop-close {
-  font-size: 28px;
-  font-weight: 500;
-}
-
-#pop-close {
   background: none;
   border: none;
   color: #67798e;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 .card {
