@@ -994,3 +994,98 @@ form .btn:hover {
   font-size: 28px;
   font-weight: 500;
 }
+
+@media only screen and (min-width: 768px) {
+  .main-container {
+    height: 93vh;
+    width: 100vw;
+    margin: 1rem auto;
+    background-color: #191765;
+    background-image: url(/img/0.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .bg {
+    background-color: rgba(45, 46, 53, 0.356);
+    width: 90vw;
+    height: 70vw;
+    margin: 0 auto;
+    margin: 0 auto;
+  }
+
+  .card {
+    display: grid;
+    margin: 0 auto;
+    height: 100vh;
+  }
+
+  .top {
+    margin: 1rem auto;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-img {
+    display: block;
+    width: 80vw !important;
+    height: 70vh;
+    margin: 1rem auto;
+  }
+
+  .card p {
+    margin: 1rem auto;
+    height: 7rem;
+    width: 60%;
+    font-size: 16;
+    font-weight: 400;
+  }
+
+  .tech-list {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .tech-list li {
+    border-left: 1px solid gray;
+    padding: 0 0.5rem;
+    text-align: center;
+  }
+
+  .btn-cont {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pop-btn {
+    /* padding: 0; */
+    width: 30%;
+    color: #dcdce8;
+    /* height: 3rem; */
+  }
+
+  /* .pop-btn-1 img {
+    position: relative;
+    top: 15px;
+    left: 1px;
+  }
+
+  .pop-btn img {
+    position: relative;
+    top: 15px;
+    left: 1px;
+  } */
+}
