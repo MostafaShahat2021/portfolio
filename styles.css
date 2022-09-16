@@ -999,7 +999,6 @@ form .btn:hover {
 @media only screen and (min-width: 768px) {
   .main-container {
     height: 93vh;
-    width: 100vw;
     margin: 1rem auto;
     background-color: #191765;
     background-image: url(/img/0.png);
@@ -1059,7 +1058,7 @@ form .btn:hover {
 
   .tech-list li {
     border-left: 1px solid gray;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     text-align: center;
     font-size: 15px;
     font-weight: 500;
