@@ -771,6 +771,8 @@ form .btn:hover {
   .con {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 2rem;
   }
 
   .list-container ul {
@@ -884,7 +886,7 @@ form .btn:hover {
 }
 .bg {
   width: 90%;
-  margin: 0 auto;
+  margin: 1rem auto;
   background-color: rgba(45, 46, 53, 0.356);
   border: 0.1px solid white;
 }
@@ -930,7 +932,7 @@ form .btn:hover {
 }
 
 .tech-list {
-  width: 90%;
+  width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -939,7 +941,6 @@ form .btn:hover {
 .tech-list li {
   border-left: 1px solid gray;
   padding: 0.5rem;
-  margin-bottom: 1rem;
 }
 
 .btn-cont {
@@ -1010,8 +1011,7 @@ form .btn:hover {
   .bg {
     background-color: rgba(45, 46, 53, 0.356);
     width: 90vw;
-    height: 70vw;
-    margin: 0 auto;
+    height: 150vh;
     margin: 0 auto;
   }
 
@@ -1032,8 +1032,8 @@ form .btn:hover {
 
   .card-img {
     display: block;
-    width: 80vw !important;
-    height: 70vh;
+    width: 80vw;
+    height: 80vh;
     margin: 1rem auto;
   }
 
@@ -1046,11 +1046,14 @@ form .btn:hover {
   }
 
   .tech-list {
-    width: 60%;
-    margin: 0 auto;
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
   }
 
@@ -1058,10 +1061,13 @@ form .btn:hover {
     border-left: 1px solid gray;
     padding: 0 0.5rem;
     text-align: center;
+    font-size: 15px;
+    font-weight: 500;
   }
 
   .btn-cont {
-    width: 80%;
+    /* border: 1px solid red; */
+    width: 50%;
     margin: 1rem auto;
     display: flex;
     flex-direction: row;
@@ -1071,21 +1077,7 @@ form .btn:hover {
   }
 
   .pop-btn {
-    /* padding: 0; */
     width: 30%;
     color: #dcdce8;
-    /* height: 3rem; */
   }
-
-  /* .pop-btn-1 img {
-    position: relative;
-    top: 15px;
-    left: 1px;
-  }
-
-  .pop-btn img {
-    position: relative;
-    top: 15px;
-    left: 1px;
-  } */
 }
