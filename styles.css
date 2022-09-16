@@ -188,6 +188,16 @@ main p,
   text-decoration: none;
 }
 
+.top h3 {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+  margin-bottom: 1rem;
+}
+
 .navbar a:link h3 {
   display: block;
   color: #c8c8d4;
@@ -884,6 +894,7 @@ form .btn:hover {
   width: 100%;
   margin: 0 auto;
 }
+
 .bg {
   width: 90%;
   margin: 1rem auto;
@@ -901,11 +912,11 @@ form .btn:hover {
   margin-bottom: 1rem;
 }
 
-.top h3,
 #pop-close {
   font-size: 28px;
   font-weight: 500;
 }
+
 #pop-close {
   background: none;
   border: none;
