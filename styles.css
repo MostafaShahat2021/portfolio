@@ -338,6 +338,28 @@ main p,
   text-align: center;
 }
 
+.msg {
+  visibility:hidden;
+  color: #7d73fc;
+  font-size: 12px;
+  font-weight: 400;
+  width: 80%;
+  height: 40px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error{
+  border: 2px solid red;
+}
+
+.msg.error {
+  border: none;
+  color: #7d73fc;
+}
+
 #user_name,
 #user_mail {
   background-color: #fff;
@@ -805,6 +827,7 @@ form .btn:hover {
   }
 
   form {
+    border: 1px solid red;
     display: block;
     margin: 0 auto;
     width: 80%;
@@ -812,6 +835,31 @@ form .btn:hover {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 1rem;
+  }
+
+  .msg {
+    visibility:hidden;
+    border: 1px solid red;
+    color: #d9d9ec;
+    font-size: 12px;
+    font-weight: 400;
+    /* padding-top: 1rem; */
+    width: 55%;
+    height: 40px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+
+  .error{
+    border: 2px solid red;
+  }
+
+  .msg.error {
+    border: none;
+    color: red;
   }
 
   #user_name,

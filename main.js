@@ -180,3 +180,22 @@ function recent() {
   });
 }
 recent();
+
+const formCheck = () => {
+  const Form = document.getElementById('form');
+  Form.addEventListener('submit', (e) => {
+    const email = document.getElementById('user_mail');
+    const emailValue = email.value;
+    const validateEmail = email.value.toLowerCase();
+    const msg = document.querySelector('.msg');
+    if (validateEmail !== emailValue) {
+      email.classList.add('error');
+      msg.style.visibility = 'visible';
+      msg.innerHTML = 'Please your Email should be in lower-case.';
+      msg.classList.add('error');
+      e.preventDefault();
+    }
+  });
+};
+
+formCheck();
