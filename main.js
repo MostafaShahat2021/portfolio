@@ -145,8 +145,9 @@ function recent() {
 
       </ul>
       <div class="btn-cont">
-      <div class="pop-btn pop-btn-1"><a href="${recentArr[i].live}">see Live <img src="/img/Icon.svg" alt="live-icon"></a></div>
-      <div class="pop-btn"><a href="${recentArr[i].source}">See Source <img src="/img/Group.png" alt="source-icon"></a></div>
+      <button class="pop-btn pop-btn-1">
+      see Live <a href="#"><img src="/img/Icon.svg" alt="live-icon"></a></button>
+      <button class="pop-btn">See Source <a href="#"><img src="/img/Group.png" alt="source-icon"></a></button>
       </div>
       </div>
       </article>

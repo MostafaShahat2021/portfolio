@@ -32,6 +32,12 @@ Microverse Portfolio Project
 - Add contact Form.
 - Add Desktop version with media queries.
 - Add Mobile Menu
+- Add popup window when the user click on see project button, the popup with details about the project appears.
+- When the user click the close button, the popup disappears.
+- Add JavaScript array of objects to store all of the projects information.
+- Add function to creat projects section dynamically using the information stored in the JavaScript array.
+- Update stylesheet with mobile popup window styling.
+- Update stylesheet with desktop popup  window styling.
 
 ## Getting Started
 

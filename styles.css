@@ -875,7 +875,7 @@ form .btn:hover {
 
 .main-container {
   color: #dcdce8;
-  background-image: url(/img/shapes-mobile-menu.png);
+  background-image: url(img/shapes-mobile-menu.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -919,7 +919,7 @@ form .btn:hover {
   width: 100%;
 }
 
-.card img {
+.card-img {
   margin-bottom: 1rem;
 }
 
@@ -955,27 +955,17 @@ form .btn:hover {
 
 .pop-btn {
   background-color: #7d73fc7a;
+  color: #dcdce8;
   margin: 0.5rem auto;
   padding: 0.5rem;
-  width: 100%;
+  width: 60%;
   height: 40%;
-  text-align: left;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-}
-
-.pop-btn-1 img {
-  position: relative;
-  top: 8px;
-  left: 15px;
-}
-
-.pop-btn img {
-  width: 15px;
-  margin-left: 20px;
-  position: relative;
-  top: 8px; 
+  font-size: 12px;
+  font-weight: 400;
 }
 
 #pop-close,
