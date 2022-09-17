@@ -216,7 +216,7 @@ body.onload = () => {
   }
 };
 
-document.querySelectorAll('input').forEach((input) => {
+document.querySelectorAll('input, textarea').forEach((input) => {
   input.addEventListener('input', (event) => {
     event.preventDefault();
     // Calling input values
