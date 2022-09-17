@@ -8,6 +8,12 @@ const section = document.querySelector('.first-section');
 const contactSec = document.getElementById('contact-section');
 const myrec = document.getElementById('portfolio');
 const hr = document.querySelector('.hr-big');
+const body = document.getElementsByTagName('body');
+const form = document.getElementById('form');
+const msg = document.querySelector('.msg');
+const nameValue = document.getElementById('user_name');
+const emailInput = document.getElementById('user_mail');
+const recievingData = localStorage.getItem('myUserInfo');
 
 // ================  Mobile menu  ===================================
 
@@ -182,12 +188,12 @@ function recent() {
 recent();
 
 const formCheck = () => {
-  const Form = document.getElementById('form');
-  Form.addEventListener('submit', (e) => {
+  const form = document.getElementById('form');
+  form.addEventListener('submit', (e) => {
     const email = document.getElementById('user_mail');
     const emailValue = email.value;
     const validateEmail = email.value.toLowerCase();
-    const msg = document.querySelector('.msg');
+    // const msg = document.querySelector('.msg');
     if (validateEmail !== emailValue) {
       email.classList.add('error');
       msg.style.visibility = 'visible';
@@ -199,3 +205,36 @@ const formCheck = () => {
 };
 
 formCheck();
+
+// preserve data in the browser
+body.onload = () => {
+  if (recievingData) {
+    const dataSave = JSON.parse(recievingData);
+    nameValue.value = dataSave.name;
+    emailInput.value = dataSave.email;
+    msg.value = dataSave.message;
+  }
+};
+
+document.querySelectorAll('input').forEach((input) => {
+  input.addEventListener('input', (event) => {
+    event.preventDefault();
+    // Calling input values
+    const nameData = document.querySelector('#user_name').value;
+    const emailData = document.querySelector('#user_mail').value;
+    const msgData = document.querySelector('#user_text').value;
+
+    // Store values in object;
+    const userInfo = {
+      name: nameData,
+      email: emailData,
+      message: msgData,
+    };
+
+    localStorage.setItem('user', JSON.stringify(userInfo));
+  });
+});
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+});
