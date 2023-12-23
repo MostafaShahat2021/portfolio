@@ -45,58 +45,58 @@ function linkclose() {
 // array of opjects to store all of the information for all projects
 const recentArr = [
   {
-    title: 'Multi-Post Stories',
-    img: 'img/Snapshoot-Portfolio.png',
-    discription: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-    of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing
-    and typesetting ever since the 1500s, when an unknown printer took a galley of type veris lapoa
-    todoe.`,
-    techs: ['html', 'css', 'js'],
-    button: 'b-1',
-    button2: 'p-1',
-    live: '#',
-    source: '#',
-  },
-  {
-    title: 'Tonic',
-    img: 'img/Snapshoot-Portfolio(1).png',
-    discription: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-    of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing
-    and typesetting ever since the 1500s, when an unknown printer took a galley of type veris lapoa
-    todoe.`,
-    techs: ['html', 'css', 'js', 'bootstrab'],
+    title: 'Remotive Jobs',
+    img: 'img/Remotive Jobs.jpg',
+    discription: `Remotive jobs is where top talents go to easily access active and fully remote job opportunities from vetted tech companies`,
+    techs: ['REACT', 'React-redux', 'React hooks'],
     button: 'b-2',
     button2: 'p-2',
-    live: '#',
-    source: '#',
+    live: 'https://remotive-app-spa-with-react-redux.onrender.com/',
+    source: 'https://github.com/MostafaShahat2021/reactCapstoneProject',
   },
   {
-    title: 'Facebook 360',
-    img: 'img/Snapshoot-Portfolio(2).png',
-    discription: `A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a standard
-    dummy text.`,
-    techs: ['html', 'css', 'js'],
-    button: 'b-3',
-    button2: 'p-3',
-    live: '#',
-    source: '#',
-  },
-  {
-    title: 'Uber Navigation',
-    img: 'img/Snapshoot-Portfolio(3).png',
-    discription: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-    of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing
-    and typesetting ever since the 1500s, when an unknown printer took a galley of type veris lapoa
-    todoe.`,
-    techs: ['html', 'css', 'js', 'bootstrab'],
+    title: 'Math Magicians',
+    img: 'img/Math Magicians.jpg',
+    discription: `Math Magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+    Make simple calculations.
+    Read a random math-related quote.
+`,
+    techs: ['React', 'HTML(HTML-5)', 'CSS(Flexbox)'],
     button: 'b-4',
     button2: 'p-4',
-    live: '#',
-    source: '#',
+    live: 'https://mostafashahat2021.github.io/To-Do-list-add-remove-1/dist/',
+    source: 'https://github.com/MostafaShahat2021/To-Do-list-add-remove-1',
+  },
+  {
+    title: 'Chinese Meal Generator',
+    img: 'img/Chinese Meal Generator.jpg',
+    discription: `Chinese Meal Generator is API meals generator that displays various chinese meals with an image, ingredients, and preparation steps.`,
+    techs: ['HTML', 'CSS', 'JavaScript(ES6)'],
+    button: 'b-3',
+    button2: 'p-3',
+    live: 'https://hisoka37.github.io/JavaScript_Capstone_ThemealdbApi/',
+    source: 'https://github.com/Hisoka37/JavaScript_Capstone_ThemealdbApi',
+  },
+  {
+    title: 'To Do list',
+    img: 'img/To Do list.jpg',
+    discription: `a simple HTML list of To Do tasks, built using webpack and served by a webpack dev server.`,
+    techs: ['HTML(HTML-5)', 'CSS(Flexbox)', 'javaScript(ES6)', 'webpack'],
+    button: 'b-4',
+    button2: 'p-4',
+    live: 'https://mostafashahat2021.github.io/To-Do-list-add-remove-1/dist/',
+    source: 'https://github.com/MostafaShahat2021/To-Do-list-add-remove-1',
+  },
+  {
+    title: 'Climate Change Summit',
+    img: 'img/Climate Change Summit.jpg',
+    discription: `capstone project -2022 United Nations Climate Change Conference page `,
+    techs: ['HTML', 'CSS', 'JS'],
+    button: 'b-1',
+    button2: 'p-1',
+    live: 'https://mostafashahat2021.github.io/capstone-project---Conference-page-Module-1/',
+    source: 'https://github.com/MostafaShahat2021/capstone-project---Conference-page-Module-1',
   },
 ];
 function techfun(item, index) {
@@ -152,8 +152,8 @@ function recent() {
       </ul>
       <div class="btn-cont">
       <button class="pop-btn pop-btn-1">
-      see Live <a href="#"><img src="/img/Icon.svg" alt="live-icon"></a></button>
-      <button class="pop-btn">See Source <a href="#"><img src="/img/Group.png" alt="source-icon"></a></button>
+      see Live <a href="${recentArr[i].live}"><img src="/img/Icon.svg" alt="live-icon"></a></button>
+      <button class="pop-btn">See Source <a href="${recentArr[i].source}"><img src="/img/Group.png" alt="source-icon"></a></button>
       </div>
       </div>
       </article>
