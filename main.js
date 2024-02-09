@@ -38,7 +38,7 @@ function linkclose() {
   for (let i = 0; i < portfolio.length; i += 1) {
     portfolio[i].addEventListener('click', linkclose);
   }
-}());
+})();
 
 // ================  popup window.  ===================================
 
@@ -78,16 +78,16 @@ const recentArr = [
     live: 'https://hisoka37.github.io/JavaScript_Capstone_ThemealdbApi/',
     source: 'https://github.com/Hisoka37/JavaScript_Capstone_ThemealdbApi',
   },
-  {
-    title: 'To Do list',
-    img: 'img/To Do list.jpg',
-    discription: `a simple HTML list of To Do tasks, built using webpack and served by a webpack dev server.`,
-    techs: ['HTML(HTML-5)', 'CSS(Flexbox)', 'javaScript(ES6)', 'webpack'],
-    button: 'b-4',
-    button2: 'p-4',
-    live: 'https://mostafashahat2021.github.io/To-Do-list-add-remove-1/dist/',
-    source: 'https://github.com/MostafaShahat2021/To-Do-list-add-remove-1',
-  },
+  // {
+  //   title: 'To Do list',
+  //   img: 'img/To Do list.jpg',
+  //   discription: `a simple HTML list of To Do tasks, built using webpack and served by a webpack dev server.`,
+  //   techs: ['HTML(HTML-5)', 'CSS(Flexbox)', 'javaScript(ES6)', 'webpack'],
+  //   button: 'b-4',
+  //   button2: 'p-4',
+  //   live: 'https://mostafashahat2021.github.io/To-Do-list-add-remove-1/dist/',
+  //   source: 'https://github.com/MostafaShahat2021/To-Do-list-add-remove-1',
+  // },
   {
     title: 'Climate Change Summit',
     img: 'img/Climate Change Summit.jpg',
@@ -96,7 +96,8 @@ const recentArr = [
     button: 'b-1',
     button2: 'p-1',
     live: 'https://mostafashahat2021.github.io/capstone-project---Conference-page-Module-1/',
-    source: 'https://github.com/MostafaShahat2021/capstone-project---Conference-page-Module-1',
+    source:
+      'https://github.com/MostafaShahat2021/capstone-project---Conference-page-Module-1',
   },
 ];
 function techfun(item, index) {
